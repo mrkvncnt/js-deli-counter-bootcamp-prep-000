@@ -2,7 +2,7 @@
 var marxDeli = []
 
 function takeANumber(marxDeli, name) {
-  if (name){
+  if (marxDeli, name){
     marxDeli.push(name);
     return(`Welcome, ${name}. You are number ${marxDeli.length} in line.`);
   }
