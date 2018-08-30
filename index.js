@@ -38,7 +38,7 @@ function currentLine(marxDeli) {
 function vip(marxDeli, name) {
 if (name){
     marxDeli.unshift(name);
-    return(`Hey, ${name}. We'll get you seated ASAP!`);
+    return(`Hey, ${name}. Right this way.`);
   }
   else {
     return(`We'll get you seated ASAP!`);
